@@ -1,6 +1,6 @@
 {
   "name": "cakeq",
-  "version": "0.0.1-beta.1",
+  "version": "1.0.0",
   "description": "some quizzes",
   "main": "index.js",
   "bin": {
@@ -11,9 +11,15 @@
     "node": ">=6.0.0"
   },
   "scripts": {
+    "release": "standard-version",
     "test": "node ./bin/test.js",
     "help": "istanbul help config",
     "check": "istanbul cover node_modules/mocha/bin/_mocha -- ./tmp/main.js && istanbul check-coverage --statement 90 --branch 90 --function 90"
+  },
+  "standard-version": {
+    "skip": {
+      "tag": true
+    }
   },
   "repository": {
     "type": "git",
@@ -41,5 +47,8 @@
     "prompt": "^1.0.0",
     "semver": "^5.5.0",
     "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "standard-version": "^4.4.0"
   }
 }

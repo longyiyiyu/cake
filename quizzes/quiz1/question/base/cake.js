@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-function test(Robort) {
+function test(Robort, a, abc) {
   describe('Robort.base', () => {
     let robort;
 

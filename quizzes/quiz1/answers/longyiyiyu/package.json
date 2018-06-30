@@ -1,10 +1,5 @@
 {
   "name": "cake-q1-answer",
   "version": "1.0.0",
-  "author": "longyiyiyu",
-  "scripts": {
-    "test": "node ./test.js"
-  },
-  "dependencies": {
-  }
+  "author": "longyiyiyu"
 }
