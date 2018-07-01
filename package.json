@@ -13,11 +13,6 @@
   "scripts": {
     "release": "standard-version"
   },
-  "standard-version": {
-    "skip": {
-      "tag": true
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/longyiyiyu/cake.git"
