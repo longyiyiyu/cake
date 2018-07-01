@@ -33,6 +33,7 @@
   "homepage": "https://github.com/longyiyiyu/cake#readme",
   "dependencies": {
     "babel-core": "^6.26.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.1.2",
     "chalk": "^2.4.1",

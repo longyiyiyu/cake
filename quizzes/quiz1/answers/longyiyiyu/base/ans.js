@@ -4,6 +4,6 @@ class Robort {
   }
 }
 
-module.exports = {
+export default {
   ans: [Robort],
 };

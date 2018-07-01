@@ -5,7 +5,9 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 This repo contains some quizzes of Javascript and the excellent answers
+
 This repo also provides `cake-cli` for user to answer the quiz comfortably
+
 More information about the quizzes in [Wiki](https://github.com/longyiyiyu/cake/wiki) 
 
 ## Installation

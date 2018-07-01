@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-function test(Robort, a, abc) {
+function test(Robort) {
   describe('Robort.base', () => {
     let robort;
 
@@ -16,6 +16,6 @@ function test(Robort, a, abc) {
   });
 }
 
-module.exports = {
+export default {
   test,
 };

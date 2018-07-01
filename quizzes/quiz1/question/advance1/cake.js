@@ -24,6 +24,6 @@ function test(Robort) {
   });
 }
 
-module.exports = {
+export default {
   test,
 };

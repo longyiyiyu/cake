@@ -1,5 +1,8 @@
 {
   "name": "cake-q1-answer",
   "version": "1.0.0",
-  "author": "longyiyiyu"
+  "author": "longyiyiyu",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
