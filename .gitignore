@@ -1,0 +1,9 @@
+.idea
+.DS_Store
+
+npm-debug.log
+node_modules
+package-lock.json
+
+quizzes/quiz1/answers/longyiyiyu/coverage
+quizzes/quiz1/answers/longyiyiyu/tmp

@@ -1,0 +1,47 @@
+{
+  "name": "cakeq",
+  "version": "1.1.0",
+  "description": "some quizzes",
+  "main": "index.js",
+  "bin": {
+    "c": "./bin/cake-cli",
+    "cake-cli": "./bin/cake-cli"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longyiyiyu/cake.git"
+  },
+  "keywords": [
+    "quiz"
+  ],
+  "author": "long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longyiyiyu/cake/issues"
+  },
+  "homepage": "https://github.com/longyiyiyu/cake#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "ejs": "^2.6.1",
+    "figlet": "^1.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.1",
+    "prompt": "^1.0.0",
+    "semver": "^5.5.0",
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "standard-version": "^4.4.0"
+  }
+}
