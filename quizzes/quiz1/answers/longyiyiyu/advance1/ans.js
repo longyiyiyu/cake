@@ -1,3 +1,5 @@
+'use strict';
+
 const MAP = {
   hello: 'hello',
   'Who are you?': "I'm Robort.",
@@ -6,6 +8,7 @@ const MAP = {
 
 const DEFAULTANS = "Sorry, I don't know what you say.";
 
+/* code Robort here */
 class Robort {
   chat(msg) {
     return MAP[msg] || DEFAULTANS;

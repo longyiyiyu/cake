@@ -1,3 +1,6 @@
+'use strict';
+
+/* code Robort here */
 class Robort {
   chat(msg) {
     return 'hello';
